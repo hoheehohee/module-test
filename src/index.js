@@ -1,8 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import Button from '@material-ui/core/Button';
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+const MMT = {
+  Button
+}
+
+export default MMT;
+// import './index.css';
+// import App from './App';
+// import registerServiceWorker from './registerServiceWorker';
+
+// ReactDOM.render(<App />, document.getElementById('root'));
+// registerServiceWorker();
